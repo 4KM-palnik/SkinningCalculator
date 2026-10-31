@@ -1,0 +1,16 @@
+{
+  "name": "skinning-calculator",
+  "version": "1.0.0",
+  "description": "Easing-curve skinning weight calculator",
+  "main": "main.js",
+  "author": "you",
+  "scripts": { "start": "electron .", "build": "electron-builder --win portable" },
+  "devDependencies": { "electron": "^33.0.0", "electron-builder": "^25.0.0" },
+  "build": {
+    "appId": "local.skinning.calculator",
+    "productName": "Skinning Calculator",
+    "files": ["index.html", "main.js", "package.json"],
+    "win": { "target": "portable" },
+    "portable": { "artifactName": "SkinningCalculator.exe" }
+  }
+}

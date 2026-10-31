@@ -1,0 +1,11 @@
+const { app, BrowserWindow } = require("electron");
+const path = require("path");
+function createWindow() {
+  const win = new BrowserWindow({
+    width: 1100, height: 900, minWidth: 420, minHeight: 600,
+    title: "Skinning Calculator", autoHideMenuBar: true, backgroundColor: "#f5f4ee"
+  });
+  win.loadFile(path.join(__dirname, "index.html"));
+}
+app.whenReady().then(createWindow);
+app.on("window-all-closed", () => app.quit());
