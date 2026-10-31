@@ -1,2 +1,16 @@
-# SkinningCalculator
-A simple program designed to calculate the values you should use for weight painting to ensure your skinning always works perfectly. It includes the option to choose from several curves and adjust the number of steps according to your needs.  You can also try the online version: link coming soon!
+# Skinning Calculator
+
+Split a blend from 0 to 1 into evenly spaced steps and shape it with an easing curve (17 curves). Handy for skin weights between bones.
+
+**[Try it online](https://YOUR-USERNAME.github.io/YOUR-REPO/)**
+
+## Download (Windows)
+Get `SkinningCalculator.exe` from the [Releases page](../../releases/latest). It is portable, so there is nothing to install.
+
+## Run in a browser
+Open `index.html`. It is a single file with no dependencies.
+
+## Build the .exe yourself
+1. Install [Node.js](https://nodejs.org).
+2. Double-click `build_exe.bat`.
+3. Find `SkinningCalculator.exe` in the `dist` folder.
