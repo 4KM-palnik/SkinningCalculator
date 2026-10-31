@@ -5,6 +5,7 @@ if errorlevel 1 (
   echo Node.js is required. Install it from https://nodejs.org and run this again.
   pause & exit /b
 )
+set CSC_IDENTITY_AUTO_DISCOVERY=false
 call npm install
 call npm run build
 echo.
