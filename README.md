@@ -3,7 +3,7 @@
 Split a blend from 0 to 1 into evenly spaced steps and shape it with an easing curve (17 curves). Handy for skin weights between bones.
 Btw Claude style was intended, I really like how it looks.
 
-**[Try it online](https://YOUR-USERNAME.github.io/YOUR-REPO/)**
+**[Try it online](https://4km-palnik.github.io/SkinningCalculator/)**
 
 ## Download (Windows)
 Get `SkinningCalculator.exe` from the [Releases page](../../releases/latest). It is portable, so there is nothing to install.
